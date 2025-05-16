@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'djangodelights.inventory',  # Custom app for inventory management
+    'inventory.apps.InventoryConfig',
 ]
 
 MIDDLEWARE = [
